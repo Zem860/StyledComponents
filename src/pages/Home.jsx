@@ -1,15 +1,16 @@
-import { Title, Wrapper, HomepageTitle } from '../styled-Components/BodyStyle';
+import { Title, Wrapper, HomepageTitle, StarText } from '../styled-Components/BodyStyle';
 import { Container } from '../styled-Components/BodyStyle';
-import { Starthing } from '../data/star';
+import { runLoop } from '../data/star';
 import {data} from '../data/data'
 const Home = () => {
   return (
     <>
       <Wrapper>
         <Container>
-          <HomepageTitle>{data.HomepageTitle}</HomepageTitle>
+          <HomepageTitle>{data.homePageTitle}</HomepageTitle>
           <Title $type="title">{data.subTitle}</Title>
-          <Starthing />
+          <StarText>{runLoop()}</StarText>
+          <Title $type="subTitle">{data.subTitle2}</Title>
         </Container>
       </Wrapper>
     </>

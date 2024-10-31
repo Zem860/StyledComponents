@@ -1,6 +1,6 @@
 const starNum = 20;
 
-const runLoop = () => {
+export const runLoop = () => {
   let text = '';
   for (let i = 0; i < starNum; i++) {
     for (let y = starNum - i; y > 0; y--) {
@@ -30,10 +30,10 @@ const runLoop = () => {
   return text;
 };
 
-export function Starthing() {
-  return (
-    <>
-      <pre>{runLoop()}</pre>
-    </>
-  );
-}
+// export function Starthing() {
+//   return (
+//     <>
+//       <pre>{runLoop()}</pre>
+//     </>
+//   );
+// }
