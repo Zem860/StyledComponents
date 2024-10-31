@@ -1,10 +1,5 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.div`
-  padding: 5rem;
-  text-align: center;
-`;
-
 const Nav = styled.nav`
   background-color: ${({ theme }) => theme.colors.primary};
   width: 100%;
@@ -29,4 +24,4 @@ const List = styled.ul`
   }
 `;
 
-export { Nav, List, Wrapper, UL };
+export { Nav, List, UL };

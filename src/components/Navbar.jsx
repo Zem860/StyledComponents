@@ -1,4 +1,4 @@
-import { Nav, List, UL } from '../styled-Components/test1';
+import { Nav, List, UL } from '../styled-Components/HeaderStyle';
 
 const NavBar = () => {
   return (

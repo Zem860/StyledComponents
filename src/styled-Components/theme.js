@@ -1,9 +1,10 @@
 // theme.js
 export const theme = {
     colors: {
-      primary: 'orange',
-      text: 'cyan',
-      hoverBackground: 'darkorange',
+      primary: '#95A5A6',
+      text: '#2C3E50',
+      third:'#638a8d',
+      hoverBackground: '#778899',
       hoverText: 'black'
     },
     spacing: {
