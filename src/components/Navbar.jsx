@@ -1,13 +1,17 @@
 import { Nav, List, UL } from '../styled-Components/HeaderStyle';
-
+import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
     <>
       <Nav>
         <UL>
-          <List>HomePage</List>
+          <Link to="/">
+            <List>Homepage</List>
+          </Link>
           <List>About Programming Language</List>
-          <List>Books</List>
+          <Link to="/books">
+            <List>Books</List>
+          </Link>
         </UL>
       </Nav>
     </>
