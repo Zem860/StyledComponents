@@ -12,9 +12,6 @@ const Wrapper = styled.div`
   }
 `;
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
   max-width: 1080px;
 
@@ -92,7 +89,7 @@ const rgbAnimation = keyframes`
 
 const StarText = styled.pre`
   font-size: 1.5rem;
-  animation: ${rgbAnimation} 10s infinite linear; /* 設定動畫持續3秒無限循環 */
+  animation: ${rgbAnimation} 10s infinite linear;
 `;
 
 export { Wrapper, Container, Title, HomepageTitle, StarText };
