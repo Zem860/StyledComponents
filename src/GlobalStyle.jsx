@@ -8,7 +8,10 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: normal;
     font-style: normal;
   }
-
+  :root{
+    --main-green:#3F5D45;
+    --second-green:#EAF0ED;
+}
 
   /* 全域樣式設定 */
   * {

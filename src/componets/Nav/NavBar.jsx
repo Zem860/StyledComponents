@@ -1,15 +1,11 @@
 import {styled} from 'styled-components'
-import logo from '../assets/logo-all-dark.png';
-
-
+import logo from '../../assets/logo-all-dark.png';
 export const Links = styled.p
 `
-
   display: flex;
   align-items: center; /* 垂直置中 */
   justify-content: center; /* 水平置中 */
-  color: #3F5D45;
-  margin: 0; /* 移除 p 標籤的默認外邊距 */
+  color: var(--main-green);
 
 `
 const NavBarStyle = styled.nav
