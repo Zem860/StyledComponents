@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  
 
   body {
     font-family: 'PingFang', 'Roboto', sans-serif;
@@ -29,10 +30,6 @@ export const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 1rem;
-  }
 
   a {
     text-decoration: none;
