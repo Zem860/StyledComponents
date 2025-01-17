@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import PingFang from './fonts/PingFang.ttf';
+import PingFang from '../fonts/PingFang.ttf';
 export const GlobalStyle = createGlobalStyle`
   /* 字體定義 */
   @font-face {

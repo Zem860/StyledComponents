@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { facebook, line, logo } from '../../tools/SvgIcon';
 import Tag from '../../tools/Tag';
+import breakpoints from '../../GlobalSetting/Dimension';
 const FooterStyle = styled.div`
   padding: 30px 100px;
   background-color: var(--second-green);
@@ -23,7 +24,11 @@ const Contact = styled.div`
 `;
 
 const Claim = styled.div`display: flex; flex-direction: column;justify-content: space-between;
-  height: 100%; /* 确保容器有高度以拉开内容 */`
+  height: 100%; /* 确保容器有高度以拉开内容 */
+  @media ${breakpoints.smallMobile}{
+    display: none;
+  }
+  `
 
 
 const SocialIcons = styled.div`
