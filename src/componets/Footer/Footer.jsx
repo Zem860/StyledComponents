@@ -9,12 +9,18 @@ const FooterStyle = styled.div`
   align-items: flex-start; /* 左对齐内容 */
   justify-content: space-between;
   height: 100%;
+  @media ${breakpoints.smallMobile}{
+    padding: 0 42px;
+  }
 `;
 
 const ImgStyle = styled.img`
   width: ${(props) => props.width || "32px"};
   height: ${(props) => props.height || "32px"};
   margin-bottom: ${(props) => props.$paddingBottom || "0"}; /* 用 margin 替代 padding */
+  @media ${breakpoints.smallMobile}{
+    margin-bottom: 0;
+  }
 `;
 
 const Contact = styled.div`
