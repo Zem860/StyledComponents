@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle`
   :root{
     --main-green:#3F5D45;
     --second-green:#EAF0ED;
+    --shade-yellow:#FFE180;
 }
 
 html, body {

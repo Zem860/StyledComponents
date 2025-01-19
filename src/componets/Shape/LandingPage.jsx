@@ -12,7 +12,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #23272F;
 `;
 
 export const LandingPage = ({children}) => {
