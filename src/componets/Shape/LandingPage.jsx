@@ -1,8 +1,11 @@
 import styled from "styled-components";
-
+import breakpoints from "../../GlobalSetting/Dimension";
 const LandingPageStyle = styled.main
 `
 padding:0 42px;
+@media ${breakpoints.smallMobile}{
+padding:0;
+}
 `
 
 const Wrapper = styled.div`

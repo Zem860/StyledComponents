@@ -1,16 +1,16 @@
 import { LandingPage } from "../componets/Index";
 import Footer from "../componets/Footer/Footer";
-import Banner from "../componets/Banner/banner";
+import Banner from '../componets/Banner/Banner'
+
 const Home = () => {
     return ( <>
     
     <LandingPage>
-    <Banner $imgUrl={`https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0d68ab0db4ee79bdce92722b31112b&auto=format&fit=crop&w=2725&q=80`}/>
+    <Banner $imgUrl={`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE_RSg0nzWN3fMgt0aSja5qmLzts9lDm_q-Q&s`}/>
     </LandingPage>
+
     <Footer/>
 
-
-    
     </> );
 }
  
