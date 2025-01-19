@@ -13,17 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     --second-green:#EAF0ED;
 }
 
-
-*,*::before,*::after{
-  box-sizing: border-box;
-  border:none;
-  outline:none;
-  padding:0;
-  margin:0;
-}
-  
-
-  html, body {
+html, body {
     width:100%;
     height:100vh;
     height:100dvh;
@@ -33,7 +23,19 @@ export const GlobalStyle = createGlobalStyle`
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #FFFFFF;
   }
+
+
+*,*::before,*::after{
+  box-sizing: border-box;
+  border:none;
+  outline:none;
+  padding:0;
+  margin:0;
+}
+  
+  
 
 
   a {

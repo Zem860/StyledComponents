@@ -29,7 +29,7 @@ const navstyle = `
   left: 0;
   width: 100%;
   background-color: #ffffff;
-  padding: 0 20px;
+  padding: 0 42px;
 `;
 
 const NormalNavBarStyle = styled.nav`
