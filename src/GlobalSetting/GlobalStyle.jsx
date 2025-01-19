@@ -13,15 +13,20 @@ export const GlobalStyle = createGlobalStyle`
     --second-green:#EAF0ED;
 }
 
-  /* 全域樣式設定 */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
+*,*::before,*::after{
+  box-sizing: border-box;
+  border:none;
+  outline:none;
+  padding:0;
+  margin:0;
+}
   
 
-  body {
+  html, body {
+    width:100%;
+    height:100vh;
+    height:100dvh;
     font-family: 'PingFang', 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
