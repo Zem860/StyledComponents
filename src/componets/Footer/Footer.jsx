@@ -70,7 +70,7 @@ const Footer = () => {
           </SocialIcons>
         </Contact>
         <Claim>
-            <Tag/>
+            <Tag>今天是個｜<br/>吃甜點的好日子。</Tag>
             <p style={{textAlign:'right', paddingTop:'50px', color:'var(--main-green)'}}>© 2018 Sweetaste* All Rights Reserved</p>
         </Claim>
       </FooterStyle>

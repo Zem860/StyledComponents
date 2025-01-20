@@ -14,7 +14,7 @@ const TagStyle = styled.p`
     }
 `
 
-const Tag = ()=>{
-    return (<><TagStyle>今天是個｜<br/>吃甜點的好日子。</TagStyle></>)
+const Tag = ({children})=>{
+    return (<TagStyle>{children}</TagStyle>)
 }
 export default Tag
