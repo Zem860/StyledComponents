@@ -3,9 +3,11 @@ import Poem from "../../tools/PoemContent";
 import breakpoints from "../../GlobalSetting/Dimension";
 import Tag from "../../tools/Tag";
 const Sect = styled.div`
+padding: 0 42px; //左右兩邊留白對應landingpage對應landingpage
 display:flex;
 justify-content: space-between;
 @media ${breakpoints.smallMobile}{
+    padding: 0; //取消對應landingpage
     flex-direction:column;
     justify-content: center;
     align-items: center;
