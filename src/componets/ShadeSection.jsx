@@ -12,6 +12,7 @@ padding-bottom:100px;
 justify-content:space-around;
 padding:0;
 margin:0;
+margin-bottom:180px;
 }
 `
 

@@ -2,7 +2,9 @@ import { LandingPage } from "../componets/Index";
 import Footer from "../componets/Footer/Footer";
 import Banner from '../componets/Banner/Banner'
 import {ShadeCardSection} from '../componets/ShadeSection'
-import IntroSection from "../componets/IntroSection";
+import IntroSection from "../componets/IntroSec/IntroSection";
+
+
 
 const Home = () => {
     return ( <>
@@ -10,7 +12,9 @@ const Home = () => {
     <LandingPage>
     <Banner $imgUrl={`https://bit.ly/2OhbMHr`}/>
     <ShadeCardSection />
-    <IntroSection />
+    <IntroSection configure={1}></IntroSection>    
+    <IntroSection configure={2}></IntroSection>
+
     </LandingPage>
     <Footer/>
 
